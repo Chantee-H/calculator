@@ -64,3 +64,8 @@ function clearAll(){
 function decimal(){
     secondOperand += '.';
 }
+
+function equals(){
+    operate();
+    displayValue();
+}
