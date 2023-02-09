@@ -42,3 +42,15 @@ button.addEventListener('click', () =>{
     displayValue();
 })
 })
+
+operators.forEach((button) => {
+button.addEventListener('click', () =>{
+   if(firstOperand !== '' && operator !== null){
+    operate();
+    }
+    firstOperand = secondOperand;
+    secondOperand = '';
+    operator = (button.innerText);
+    displayValue();
+})
+})
