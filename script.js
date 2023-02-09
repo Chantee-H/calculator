@@ -69,3 +69,8 @@ function equals(){
     operate();
     displayValue();
 }
+
+function deleted(){
+    secondOperand = secondOperand.slice(0, -1);
+    displayValue();
+}
