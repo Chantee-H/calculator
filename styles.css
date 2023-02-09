@@ -34,3 +34,15 @@ body {
     grid-row: 3 / span 3;
     background-color: #9b9be2;
 }
+
+.operators {
+    background-color: #eec882;
+}
+
+.digit, .decimal {
+    background-color: #d3d3d3;
+}
+
+.clear, .delete {
+    background-color: #e27979;
+}
