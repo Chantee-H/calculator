@@ -54,3 +54,9 @@ button.addEventListener('click', () =>{
     displayValue();
 })
 })
+
+function clearAll(){
+    secondOperand = '';
+    firstOperand = '';
+    displayValue();
+}
