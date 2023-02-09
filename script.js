@@ -28,3 +28,8 @@ function operate(){
     secondOperand = result;
     firstOperand = '';
 }
+
+function displayValue(){
+    display1.textContent = secondOperand;
+    display2.textContent = firstOperand;
+}
