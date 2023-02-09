@@ -60,3 +60,7 @@ function clearAll(){
     firstOperand = '';
     displayValue();
 }
+
+function decimal(){
+    secondOperand += '.';
+}
