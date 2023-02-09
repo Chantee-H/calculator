@@ -33,3 +33,12 @@ function displayValue(){
     display1.textContent = secondOperand;
     display2.textContent = firstOperand;
 }
+
+numbers.forEach((button) => {
+button.addEventListener('click', () =>{
+    if(button.innerText === '' && secondOperand === '')
+    return;
+    secondOperand += (button.innerText);
+    displayValue();
+})
+})
